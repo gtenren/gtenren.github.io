@@ -17,8 +17,9 @@ This page will contain mainly my projects written in python.
 
 ### mq_data_science_coursework
 In the data science course, we have done 3 short projects. This folder contains all the related notebooks and the code.
-**Portfolio 1** Analysis on GPS data of a biker cycling on the same route for 8 different times
-**Portfolio 2** Re-produce a paper on predicting the energy usage of a house based on IoT measurements of temperature and humidity and weather observations (Luis M. Candanedo, Véronique Feldheim, Dominique Deramaix. Energy and Buildings, Volume 140, 1 April 2017, Pages 81-97, ISSN 0378-7788, [http://dx.doi.org/10.1016/j.enbuild.2017.01.083])
-**Portfolio 3** Classifying if the client will subscribe a term deposit in a telemarketing campaign (S. Moro, P. Cortez and P. Rita. A Data-Driven Approach to Predict the Success of Bank Telemarketing. Decision Support Systems, Elsevier, 62:22-31, June 2014. [http://media.salford-systems.com/video/tutorial/2015/targeted_marketing.pdf])
+
+- **Portfolio 1** Analysis on GPS data of a biker cycling on the same route for 8 different times
+- **Portfolio 2** Re-produce a paper on predicting the energy usage of a house based on IoT measurements of temperature and humidity and weather observations (Luis M. Candanedo, Véronique Feldheim, Dominique Deramaix. Energy and Buildings, Volume 140, 1 April 2017, Pages 81-97, ISSN 0378-7788, [http://dx.doi.org/10.1016/j.enbuild.2017.01.083])
+- **Portfolio 3** Classifying if the client will subscribe a term deposit in a telemarketing campaign (S. Moro, P. Cortez and P. Rita. A Data-Driven Approach to Predict the Success of Bank Telemarketing. Decision Support Systems, Elsevier, 62:22-31, June 2014. [http://media.salford-systems.com/video/tutorial/2015/targeted_marketing.pdf])
 
 ### speed_dating_experiment_analysis
