@@ -16,10 +16,29 @@ Computer courses provide the knowledge to implement machine learning as well as 
 This page will contain mainly my projects written in python.
 
 ### mq_data_science_coursework
-In the data science course, we have done 3 short projects. This folder contains all the related notebooks and the code.
+In the data science course, we completed 3 short projects. This folder contains all the related notebooks and the code.
 
 - **Portfolio 1** : Analysis on GPS data of a biker cycling on the same route for 8 different times
 - **Portfolio 2** : Re-produce a paper on predicting the energy usage of a house based on IoT measurements of temperature and humidity and weather observations (Luis M. Candanedo, Véronique Feldheim, Dominique Deramaix. Energy and Buildings, Volume 140, 1 April 2017, Pages 81-97, ISSN 0378-7788, [http://dx.doi.org/10.1016/j.enbuild.2017.01.083])
 - **Portfolio 3** : Classifying if the client will subscribe a term deposit in a telemarketing campaign (S. Moro, P. Cortez and P. Rita. A Data-Driven Approach to Predict the Success of Bank Telemarketing. Decision Support Systems, Elsevier, 62:22-31, June 2014. [http://media.salford-systems.com/video/tutorial/2015/targeted_marketing.pdf])
 
-### speed_dating_experiment_analysis
+### speed_dating_experiment_classifier
+
+This project is an attempt to classify a pair of speed dating participant finding their partner a match. 
+
+The major challenge of this project is data preprocessing. The original dataset is a combine of three surveys, the participant's profile and their partner's profile. This created huge amount of missing values and duplicates observations. To takle this problem, I have remapped the data based on how different the participant and thier partner is.
+
+###voice_recognition_internship
+
+This project is a part of the internship I did in Jan-Feb2019 sponsored by a local technology business. My role was experimenting how the sponsor's voice recognition engine performed when noise is mixed to the utterance.
+
+The project can be briefly breakdown into 4 stages. 
+
+First, I download a collection of audios of  200 speakers' reading a story from an online database platform, Alveo. 
+
+Then, I generated different kinds of noise with python and mix them with the speaker audio with my other set of code. This include resampling the audio, controlling how loud the noise should be and covolving effect to the audio. THe code 
+
+After that, I work with the REST API to enrol and verify the audio I created as a voice print. Score from the system was then collected and written to csv files.
+
+And lastly I reported the result with a notebook that compared the results from different treatments on the audio.
+
