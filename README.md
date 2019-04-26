@@ -28,7 +28,7 @@ This project is an attempt to classify a pair of speed dating participant findin
 
 The major challenge of this project is data preprocessing. The original dataset is a combine of three surveys, the participant's profile and their partner's profile. This created huge amount of missing values and duplicates observations. To takle this problem, I have remapped the data based on how different the participant and thier partner is.
 
-###voice_recognition_internship
+### voice_recognition_internship
 
 This project is a part of the internship I did in Jan-Feb2019 sponsored by a local technology business. My role was experimenting how the sponsor's voice recognition engine performed when noise is mixed to the utterance.
 
