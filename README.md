@@ -34,11 +34,15 @@ This project is a part of the internship I did in Jan-Feb2019 sponsored by a loc
 
 The project can be briefly breakdown into 4 stages. 
 
-First, I download a collection of audios of  200 speakers' reading a story from an online database platform, Alveo. 
+1. I download a collection of audios of  200 speakers' reading a story from an online database platform, Alveo. 
+2. I generated different kinds of noise with python and mix them with the speaker audio with my other set of code. This include resampling the audio, controlling how loud the noise should be and covolving effect to the audio. THe code 
+3. I work with the REST API to enrol and verify the audio I created as a voice print. Score from the system was then collected and written to csv files.
+4. I reported the result with a notebook that compared the results from different treatments on the audio.
 
-Then, I generated different kinds of noise with python and mix them with the speaker audio with my other set of code. This include resampling the audio, controlling how loud the noise should be and covolving effect to the audio. THe code 
+### Legal Citation Classification
 
-After that, I work with the REST API to enrol and verify the audio I created as a voice print. Score from the system was then collected and written to csv files.
+Given a citation summary, the model aim to classify whether the citation is Follow/Allow or Distinguished which has certain legal meaning behind. This project include extracting features from the text and building models based on different features. Conventional machine learning such as Decision tree, KNN, SVM is used. I also used a multichannel convolutional neural network as my deep learning architecture. 
 
-And lastly I reported the result with a notebook that compared the results from different treatments on the audio.
+### EY Data Science Challenge
 
+The challenge is about predicting how many device will enter the target city area given their previous trajectory. In this project, I applied different multiple instance machine learning technique such as bagging, single instance learning etc. I have also applied different ensemble machine learning technique to combine weaker models to a stronger one.
